@@ -40,16 +40,29 @@ Yerel LLM + RAG + Basit Frontend ile çalışan bir etkileşimli kamu hizmeti as
 
 1. **Ollama'yı kur**  
    [https://ollama.com](https://ollama.com)
+   <img width="913" height="704" alt="111" src="https://github.com/user-attachments/assets/2b800830-b165-426e-ba37-6ba3f2473fb7" />
 
-2. **Terminale şu komutla Mistral modelini yükle:**
+3. **Terminale şu komutla Mistral modelini yükle:**
    ```bash
    ollama run mistral
-3. **Projeyi klonla ve bağımlılıkları yükle::**
+   <img width="1078" height="725" alt="2222" src="https://github.com/user-attachments/assets/791c02d8-f7c4-4cc4-ab11-8408bc951f16" />
+
+4. **Projeyi indir ve terminalden klasörü aç:**
    ```bash
-   git clone https://github.com/kullaniciadi/PolicyGPT.git
    cd PolicyGPT
+
+3. **Sanal ortam oluştur:**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate   # Windows için
+   # source venv/bin/activate  # MacOS/Linux için
+   <img width="1162" height="564" alt="333" src="https://github.com/user-attachments/assets/5fc4294e-b3ed-4734-85d6-e2139a8fb437" />
+
+4. **Projeye gerekli bağımlılıkları yükle::**
+   ```bash
    pip install -r requirements.txt
-4. **Uygulamayı çalıştır:**   
+   
+4. **Uygulamayı çalıştır ve tarayıcıdan adrese git:**   
    ```bash
    python app.py
    Tarayıcıdan http://127.0.0.1:5000 adresine git 🎯
