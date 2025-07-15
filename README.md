@@ -18,26 +18,6 @@ Yerel LLM + RAG + Basit Frontend ile çalışan bir etkileşimli kamu hizmeti as
 
 ## 🛠️ Kurulum
 
-# 📘 PolicyGPT
-
-Vatandaş Hakları ve Resmî İşlemler Rehberi  
-Yerel LLM + RAG + Basit Frontend ile çalışan bir etkileşimli kamu hizmeti asistanı.
-
----
-
-## 🚀 Özellikler
-
-- 🇹🇷 Türkçe çalışan yerel LLM (Mistral 7B - Ollama)
-- 📄 PDF tabanlı resmi dökümanlardan bilgi tarama (RAG)
-- ✅ Kısa, açık ve **adım adım rehber üretimi**
-- 🖥️ Basit ve şık frontend (HTML + CSS)
-- 🔍 Konu seçmeden direkt soru ile rehber alma desteği
-- 💡 Dijital kamu farkındalığını artırma hedefi
-
----
-
-## 🛠️ Kurulum
-
 1. **Ollama'yı kur**  
    [https://ollama.com](https://ollama.com)
 <img width="500" height="300" alt="111" src="https://github.com/user-attachments/assets/2b800830-b165-426e-ba37-6ba3f2473fb7" />
