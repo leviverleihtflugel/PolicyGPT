@@ -5,11 +5,10 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    answer = {"steps": ""}  # Sadece adım adım rehber kısmı gösterilecek
+    answer = {"steps": ""}
     if request.method == "POST":
-        topic = request.form["topic"]
         question = request.form["question"]
-        result = query(question, topic)
+        result = query(question)
         answer["steps"] = result.get("steps", "")
     return render_template("index.html", answer=answer)
 

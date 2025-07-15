@@ -7,42 +7,46 @@ from langchain.chains import RetrievalQA
 
 import os
 
-def get_pdf_path(topic):
-    topic_file_map = {
-        "ikametgah": "data/ikametgah.pdf",
-        "sgk": "data/sgk.pdf",
-        "vatandaslik": "data/vatandaslik.pdf",
-        "vergi": "data/vergi.pdf"
-    }
-    return topic_file_map.get(topic.lower())
-
+# LLM ve embedder
 llm = Ollama(model="mistral")
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-def query(question, topic):
-    pdf_path = get_pdf_path(topic)
-    if not pdf_path or not os.path.exists(pdf_path):
+# Soru-cevap fonksiyonu
+def query(question):
+    all_docs = []
+    pdf_files = [
+        "data/ikametgah.pdf",
+        "data/sgk.pdf",
+        "data/vatandaslik.pdf",
+        "data/vergi.pdf"
+    ]
+
+    for path in pdf_files:
+        if os.path.exists(path):
+            loader = PyPDFLoader(path)
+            all_docs.extend(loader.load())
+
+    if not all_docs:
         return {
-            "steps": "Belirtilen konuya ait PDF dosyası bulunamadı.",
+            "steps": "Hiçbir PDF dosyası yüklenemedi.",
             "scenario": "",
             "summary": ""
         }
 
-    loader = PyPDFLoader(pdf_path)
-    documents = loader.load()
-
     splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
-    chunks = splitter.split_documents(documents)
+    chunks = splitter.split_documents(all_docs)
 
     vectorstore = FAISS.from_documents(chunks, embeddings)
     retriever = vectorstore.as_retriever()
     qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
 
     prompt = (
-    f"Soru: {question}\n"
-    f"Lütfen sadece Türkçe olarak sade ve adım adım bir rehber üret. "
-    f"Yalnızca Türkçe yaz. Kısa, açık ve uygulanabilir maddelerden oluşsun."
-)
+        f"Soru: {question}\n"
+        f"Lütfen sadece Türkçe olarak sade ve adım adım bir rehber üret. "
+        f"Senaryo yazma. Yalnızca uygulanabilir adımlar üret. "
+        f"Kısa, net ve madde madde şekilde sırala:\n"
+        f"1. ..., 2. ..., 3. ... gibi, alt alta olacak şekilde."
+    )
 
     response = qa_chain.run(prompt).strip()
 
