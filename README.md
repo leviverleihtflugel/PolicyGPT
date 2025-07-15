@@ -55,6 +55,8 @@ PolicyGPT, vatandaşların e-Devlet işlemleri gibi resmi konularda adım adım 
    Tarayıcıdan http://127.0.0.1:5000 adresine git 🎯
 <img width="500" height="300" alt="4444" src="https://github.com/user-attachments/assets/1e5eb2e1-4e48-4353-a841-3d1b3fa81380" />
 
+---
+
 📂 **Klasör Yapısı**
 ```bash
 Kopyala
@@ -68,7 +70,9 @@ PolicyGPT/
 ├── static/                # CSS dosyası
 ├── templates/             # HTML dosyası (index.html)
 
-✅ Test Senaryoları
+---
+
+✅ **Test Senaryoları**
 Aşağıdaki test sorularıyla sistem başarıyla yanıt üretmektedir:
 
 Soru	Beklenen Çıktı
