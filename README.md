@@ -26,7 +26,7 @@ Yerel LLM + RAG + Basit Frontend ile çalışan bir etkileşimli kamu hizmeti as
    ollama run mistral
 Projeyi klonla ve bağımlılıkları yükle:
 
-bash
+```bash
 Kopyala
 Düzenle
 git clone https://github.com/kullaniciadi/PolicyGPT.git
@@ -34,7 +34,7 @@ cd PolicyGPT
 pip install -r requirements.txt
 Uygulamayı çalıştır:
 
-bash
+```bash
 Kopyala
 Düzenle
 python app.py
