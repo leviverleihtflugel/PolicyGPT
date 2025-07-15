@@ -58,26 +58,18 @@ PolicyGPT, vatandaşların e-Devlet işlemleri gibi resmi konularda adım adım 
 ---
 
 📂 **Klasör Yapısı**
-```bash
-Kopyala
-Düzenle
-PolicyGPT/
-├── app.py                 # Flask uygulaması
-├── rag_engine.py          # RAG motoru (LLM+Retrieval)
-├── requirements.txt       # Gereken pip paketleri
-├── data/                  # PDF rehber dokümanları
-├── models/                # (Boş bırakılabilir, Ollama kendi modelini kullanır)
-├── static/                # CSS dosyası
-├── templates/             # HTML dosyası (index.html)
+   ```bash
+   Kopyala
+   Düzenle
+   PolicyGPT/
+   ├── app.py                 # Flask uygulaması
+   ├── rag_engine.py          # RAG motoru (LLM+Retrieval)
+   ├── requirements.txt       # Gereken pip paketleri
+   ├── data/                  # PDF rehber dokümanları
+   ├── static/                # CSS dosyası
+   ├── templates/             # HTML dosyası (index.html)
+   ├── venv                   # Sanal ortam
 
 ---
 
-✅ **Test Senaryoları**
-Aşağıdaki test sorularıyla sistem başarıyla yanıt üretmektedir:
-
-Soru	Beklenen Çıktı
-İkametgah belgesi nasıl alınır?	E-Devlet’e giriş, belge oluşturma adımları
-SGK hizmet dökümü nereden alınır?	E-Devlet SGK hizmetleri adımları
-Türk vatandaşlığı nasıl alınır?	Vatandaşlık başvuru belgeleri ve süreç
-Vergi borcu sorgulama nasıl yapılır?	Gelir İdaresi ve E-Devlet entegrasyonu
-
+   
