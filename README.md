@@ -40,7 +40,7 @@ Yerel LLM + RAG + Basit Frontend ile çalışan bir etkileşimli kamu hizmeti as
 
 1. **Ollama'yı kur**  
    [https://ollama.com](https://ollama.com)
-   <img width="500" height="300" alt="111" src="https://github.com/user-attachments/assets/2b800830-b165-426e-ba37-6ba3f2473fb7" />
+<img width="500" height="300" alt="111" src="https://github.com/user-attachments/assets/2b800830-b165-426e-ba37-6ba3f2473fb7" />
 
 3. **Terminale şu komutla Mistral modelini yükle:**
    ```bash
