@@ -83,13 +83,18 @@ PolicyGPT, vatandaşların e-Devlet işlemleri gibi resmi konularda adım adım 
 ---
 
 
-✅ **Test Senaryoları**
+✅ **Test Senaryoları ve Ekran Görüntüleri**
 Aşağıdaki test sorularıyla sistem başarıyla yanıt üretmektedir:
 
-Soru	Beklenen Çıktı
-İkametgah belgesi nasıl alınır?	E-Devlet’e giriş, belge oluşturma adımları
-SGK hizmet dökümü nereden alınır?	E-Devlet SGK hizmetleri adımları
-Türk vatandaşlığı nasıl alınır?	Vatandaşlık başvuru belgeleri ve süreç
-Vergi borcu sorgulama nasıl yapılır?	Gelir İdaresi ve E-Devlet entegrasyonu
+**1-İkametgah belgesi nasıl alınır?**
+<img width="1011" height="816" alt="555" src="https://github.com/user-attachments/assets/7c4fcef2-e3ef-4a86-937f-005e8d71da51" />
 
-Her bir soru, PDF rehber içeriğine uygun olarak sadeleştirilmiş madde madde sonuçlar üretir.
+**2-SGK hizmet dökümü nereden alınır?**	
+<img width="1000" height="838" alt="666" src="https://github.com/user-attachments/assets/e4b61ba5-73c1-482f-b1f3-b736248c31da" />
+
+**3-Türk vatandaşlığı nasıl alınır?**	
+<img width="1023" height="816" alt="777" src="https://github.com/user-attachments/assets/dfefa890-048d-47a7-9787-e712c14c4ffc" />
+
+**4-Vergi borcu sorgulama nasıl yapılır?**
+<img width="1048" height="980" alt="888" src="https://github.com/user-attachments/assets/4302ce1d-e0ab-4044-84a7-9f391ccdc577" />
+
