@@ -58,7 +58,7 @@ PolicyGPT, vatandaşların e-Devlet işlemleri gibi resmi konularda adım adım 
 ---
 
 📂 **Klasör Yapısı**
-      ```bash
+   ```bash
     PolicyGPT/
    ├── app.py                     # Flask ana uygulama dosyası
    ├── rag_engine.py              # RAG (Retrieval-Augmented Generation) fonksiyonları
@@ -79,7 +79,7 @@ PolicyGPT, vatandaşların e-Devlet işlemleri gibi resmi konularda adım adım 
    ├── venv/                      # 📌 Python sanal ortam klasörü (Git'e eklenmez)
    │
    └── README.md                  # Proje açıklaması ve kurulum rehberi
-
+```
 ---
 
 
