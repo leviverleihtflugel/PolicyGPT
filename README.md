@@ -84,7 +84,6 @@ PolicyGPT, vatandaşların e-Devlet işlemleri gibi resmi konularda adım adım 
 
 
 ✅ **Test Senaryoları ve Ekran Görüntüleri**
-Aşağıdaki test sorularıyla sistem başarıyla yanıt üretmektedir:
 
 **1-İkametgah belgesi nasıl alınır?**
 
