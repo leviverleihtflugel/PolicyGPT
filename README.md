@@ -87,14 +87,14 @@ PolicyGPT, vatandaşların e-Devlet işlemleri gibi resmi konularda adım adım 
 Aşağıdaki test sorularıyla sistem başarıyla yanıt üretmektedir:
 
 **1-İkametgah belgesi nasıl alınır?**
-<img width="1011" height="816" alt="555" src="https://github.com/user-attachments/assets/7c4fcef2-e3ef-4a86-937f-005e8d71da51" />
+<img width="600" height="400" alt="555" src="https://github.com/user-attachments/assets/7c4fcef2-e3ef-4a86-937f-005e8d71da51" />
 
 **2-SGK hizmet dökümü nereden alınır?**	
-<img width="1000" height="838" alt="666" src="https://github.com/user-attachments/assets/e4b61ba5-73c1-482f-b1f3-b736248c31da" />
+<img width="600" height="400" alt="666" src="https://github.com/user-attachments/assets/e4b61ba5-73c1-482f-b1f3-b736248c31da" />
 
 **3-Türk vatandaşlığı nasıl alınır?**	
-<img width="1023" height="816" alt="777" src="https://github.com/user-attachments/assets/dfefa890-048d-47a7-9787-e712c14c4ffc" />
+<img width="600" height="400" alt="777" src="https://github.com/user-attachments/assets/dfefa890-048d-47a7-9787-e712c14c4ffc" />
 
 **4-Vergi borcu sorgulama nasıl yapılır?**
-<img width="1048" height="980" alt="888" src="https://github.com/user-attachments/assets/4302ce1d-e0ab-4044-84a7-9f391ccdc577" />
+<img width="600" height="400" alt="888" src="https://github.com/user-attachments/assets/4302ce1d-e0ab-4044-84a7-9f391ccdc577" />
 
